@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form action="" method="post">
+            <!-- Tipos de campos en formularios -->
+            Ingrese una URL: <input type="url" name="sitioWeb" id="" required autofocus placeholder="http://www.hola.com"><br>
+            Ingrese un correo: <input type="email" name="correo" id=""><br>
+            <!-- Expresion regulares js investigar pattern-->
+            telefono: <input type="text" name="movil" pattern="[0-9]{3}\s[0-9]{3}\s[0-9]{4}$" title="Formato: xxx xxx xxxx"><br>
+            Fecha: <input type="date" name="fecha" id=""><br>
+            Mes: <input type="month" name="mes" id=""><br>
+            Hora: <input type="time" name="hora" id=""><br>
+            Fecha y Hora: <input type="datetime-local" name="fechaYHora" id=""><br>
+            Edad: <input type="number" name="edad" id=""><br>
+            Puntos: <input type="range" name="puntos" id="" min="1" max="10"><br>
+            Color favorito: <input type="color" name="color" id=""><br>
+            Colores: <input list="colores" name="colores">
+            <datalist id="colores">
+                <option value="Rojo"></option>
+                <option value="Azul"></option>
+                <option value="Verde"></option>
+                <option value="Negro"></option>
+            </datalist><br>
+            <!-- <input type="submit" value="Enviar"> -->
+            <input type="image" src="https://pngimage.net/wp-content/uploads/2018/05/boton-enviar-png-1.png" alt="boton enviar" width="120px" height="50px">
+        </form>
+        <!-- Multimedia -->
+        <section>
+            <article>
+                <video width="350" height="240" controls loop muted autoplay poster="" preload="auto">
+                    <source src="" type="video/mp4">
+                    <source src="" type="video/ogg">
+                    <source src="" type="video/webm">
+                    <p>Su navegador no es compatible</p>
+                </video>
+            </article>
+        </section>
+        <section>
+            <article>
+                <audio controls autoplay loop muted preload="auto">
+                    <source src="" type="audio/mp3">
+                    <source src="" type="audio/ogg">
+                    <source src="" type="audio/wav">
+                    <p>Su navegador no soporta este formato de audio</p>
+                </audio>
+            </article>
+        </section>
+        <section>
+            <article>
+                <svg width="400" height="400" xmls="http://www.w3.org/2000/svg" style="border: 1px solid;">
+                    <circle cx="200" cy="200" r="200" style="fill: #FD0" />
+                    <rect x="60" y="60" width="280" height="280" style="fill: #F00; stroke: #000; stroke-width: 5" />
+                    <polygon points="200,20 80,370 380,130 20,130 320,370" style="fill: #0C9; stroke: #7CECFF; stroke-width: 5; fill-rule: evenodd" />
+                    <line x1="200" y1="200" x2="400" y2="200" style="stroke: #0F6; stroke-width: 8"/>
+                </svg>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,7 @@
+#container {
+    width: 200px;
+    height: 200px;
+    border: 30px solid;
+    border-image: url(../img/marco-200.png) 30 30 round;
+    /* round - stretch - repeat*/
+}

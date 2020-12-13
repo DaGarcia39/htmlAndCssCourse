@@ -1,0 +1,13 @@
+#container {
+    padding: 50px;
+    border: 1px solid #000;
+    background: url(../img/fondo.jpg) no-repeat;
+    background-origin: border-box;
+    /* border-box viene por defecto - content-box */
+}
+
+p {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}

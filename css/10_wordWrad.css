@@ -1,0 +1,5 @@
+p {
+    width: 100px;
+    border: 1px #ccc solid;
+    word-wrap: break-word;
+}

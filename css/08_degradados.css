@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    background: #ccc;
+    background: linear-gradient(45deg, #FF0000, #2E2EFE, #FFFFFF);
+    /* puede recibir grados, to right, to left, to top, to bottom + #color.. */
+}
+
+#secondContainer {
+    width: 500px;
+    height: 500px;
+    background: #000;
+    background: radial-gradient(circle at 0% 100%,#FF0000, #2E2EFE);
+    /* puede recibir circle % %, #color..   */
+}

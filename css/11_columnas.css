@@ -1,0 +1,12 @@
+article {
+    text-align: justify;
+    column-count: 4;
+    /* column-width: 200px; */
+    column-gap: 100px;
+    column-rule: 5px double #F00;
+}
+
+h1 {
+    column-span: all;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+p {
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: blue;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+p::first-line {
+    color: crimson;
+}

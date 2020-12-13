@@ -1,0 +1,19 @@
+body {
+    background: url(../img/fondo.jpg) no-repeat;
+    background-size: cover;
+}
+
+#container {
+    width: 400px;
+    padding: 50px 0;
+    margin: 0 auto; /*Centar div*/
+    border: 20px solid rgba(178, 255, 100, .4);
+    background: rgba(57, 61, 89, 0.7);
+    border-radius: 5px;
+}
+
+p {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
