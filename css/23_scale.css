@@ -1,0 +1,11 @@
+div {
+    width: 200px;
+    padding: 20px 0;
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: seagreen;
+    text-align: center;
+    color: white;
+}
+div:hover {
+    transform: scale(5,5);
+}

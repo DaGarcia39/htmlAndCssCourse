@@ -1,0 +1,16 @@
+.rotar {
+    width: 400px;
+    padding: 20px 0;
+    background-color: yellowgreen;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    transform-origin: bottom right;
+}
+
+.rotar:hover {
+    transform: rotate(-60deg);
+    cursor: pointer;
+    color: white;
+    background-color: turquoise;
+}

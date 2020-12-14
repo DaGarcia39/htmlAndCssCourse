@@ -1,0 +1,17 @@
+#div1 {
+    width: 200px;
+    height: 200px;
+    background-color: indigo;
+    color: white;
+    transition: width 1s 0s ease, height 1s 1s ease, background-color 3s 2s ease;
+    /* transition-property: width, height, background-color;
+    transition-duration: 1s, 1s, 3s;
+    transition-delay: 0s, 1s, 2s;
+    transition-timing-function: ease; */
+}
+
+#div1:hover {
+    width: 400px;
+    height: 400px;
+    background-color: darkgreen;
+}
