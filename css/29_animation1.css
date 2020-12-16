@@ -1,0 +1,16 @@
+#uno {
+    width: 100px;
+    height: 100px;
+    background-color: #F00;
+    position: relative;
+    animation-name: yeah;
+    animation-duration: 3s;
+}
+
+@keyframes yeah {
+    /* from { transform: translateX(0) scale(1, 1); }
+    to { transform: translateX(400px) scale(2, 2); } */
+
+    0% {transform: translateX(0) scale(1, 1);}
+    100% {transform: translateX(400px) scale(2, 2);}
+}
