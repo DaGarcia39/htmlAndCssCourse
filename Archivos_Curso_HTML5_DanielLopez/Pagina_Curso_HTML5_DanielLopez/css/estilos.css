@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Jura', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    text-align: center;
+}
+
+main {
+    height: 100%;
+}
+
+section {
+    height: 100%;
+    padding: 4em 2em;
+    position: relative;
+    width: 100%;
+}
+
+header {
+    background-color: rgba(0,0,0,.5);
+    padding: 1em 2em;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+#logo {
+    background: url(../svg/logo.svg) no-repeat;
+    background-size: contain;
+    float: left;
+    height: 2.125rem;
+    margin-left: 1.85em;
+    width: 25%;
+}
+
+nav {
+    float: right;
+    text-align: right;
+    width: 70%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    border-right: 0.03125em solid rgba(255, 255, 255, 1);
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+
+ul li a {
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+
+ul li a:hover, ul li a:active {
+    color: rgba(0, 210, 100, 1);
+}
+
+ul li:nth-last-of-type(1) {
+    border-right: none;
+}
+
+video {
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 100%;
+}
+
+#home {
+    background-color: rgba(0,0,0,.6);
+}
+
+#home #globo {
+    background: url(../svg/globo.svg) no-repeat;
+    background-size: contain;
+    height: 11rem;
+    left: 50%;
+    position: absolute;
+    top: 20%;
+    transform: translateX(-50%);
+    width: 12.5rem;
+}
+
+#home h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 2.5rem;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    top: 50%;
+}
+
+#home h2 span {
+    color: rgba(0, 210, 100, 1);
+}
+
+#home p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0 20%;
+    position: relative;
+    top: 57%;
+}
+
+#home a {
+    background: linear-gradient(rgba(0,210,100,1), rgba(0,130,60,1));
+    border-radius: 0.25em;
+    color: rgba(255, 255, 255, 1);
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+    left: 50%;
+    letter-spacing: 0.1rem;
+    padding: 0.85em 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    transform: translateX(-50%);
+    top: 65%;
+    width: 12rem;
+    z-index: 2;
+}
+
+#home #abajo {
+    background: url(../svg/abajo.svg) no-repeat;
+    display: block;
+    height: 3rem;
+    left: 50%;
+    opacity: 0;
+    position: relative;
+    top: 80%;
+    transform: translateX(-50%);
+    transition: all 0.35s;
+    width: 3rem;
+    z-index: 1;
+}
+
+#home a:hover + #abajo, #home a:active + #abajo {
+    opacity: 0.5;
+    top: 65%;
+}

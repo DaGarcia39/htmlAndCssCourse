@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Jura', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: rgba(0,0,0,1);
+    height: 80px;
+    padding: 1em 2em;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    border: 1px solid black;
+}
+
+#logo {
+    color: white;
+    float: left;
+    height: 2.125rem;
+    margin-left: 1.85em;
+    width: 25%;
+    line-height: 2.125rem;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+nav {
+    float: right;
+    text-align: right;
+    width: 70%;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    border-right: 0.03125em solid rgba(255, 255, 255, 1);
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+
+header ul li a {
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s;
+}
+
+header ul li a:hover, header ul li a:active {
+    color: rgb(78, 109, 93);
+}
+
+body {
+    background-image: url(../img/rm21-pd-sasi-03.jpg);
+    background-size: contain;
+    background-position: center;
+    margin: 0;
+}
+
+main {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#informacion {
+    position: relative;
+    padding-top: 110px;
+}
+
+#informacion ul li {
+    padding: 0.5em 1em;
+}
+
+#informacion ul li img {
+    height: 300px;
+    width: auto;
+    text-align: center;
+}
+
+#informacion ul li img:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 15px 8px rgba(0, 0, 0, .8);
+    z-index: 10;
+}
+
+#informacion ul li #datos {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#historia {
+    color: black;
+    font-size: 20px;
+    width: 80%;
+    left: 50%;
+    display: inline-block;
+    text-align: justify;
+    padding: 40px 0;
+}
+
+#hobbies {
+    padding: 20px 0 ;
+}
+
+#hobbies ul li img {
+    width: 300px;
+    height: 280px;
+    padding: 10px;
+}
+
+#hobbies ul li {
+    display: inline-block;
+    padding-bottom: 20px;
+    transition: all 2s;
+}
+
+#hobbies ul li img:hover {
+    transform: rotate(360deg) scale(1.25);
+}
+
+footer {
+    height: 70px;
+    line-height: 70px;
+    background-color: darkgray;
+    color: white;
+}
+
+p::selection {
+    background-color: darkgreen;
+    color: white;
+}
